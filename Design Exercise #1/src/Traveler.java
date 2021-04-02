@@ -6,6 +6,7 @@ public class Traveler {
 	
 	//creates a profile for the traveler with a name and a List of information
 	//List because it is flexible to add info, and the order of info matters
+	//a Map can also work
 	public Traveler(String name) {
 		this.name = name;
 		this.info = new ArrayList<String>();
